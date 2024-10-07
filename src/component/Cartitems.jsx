@@ -21,7 +21,7 @@ export const Cartitems = ({pankaj}) => {
         {pankaj.description.substring(0,90)}....
        </div>
        <div className='h-16 w-24'>
-        <img src={pankaj.image} alt="photo" />
+        <img src={pankaj.image} alt="singh" />
        </div>
      
       <p className='text-blue-500 font-semibold'>$ {pankaj.price}</p>

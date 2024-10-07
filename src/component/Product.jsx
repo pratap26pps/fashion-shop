@@ -40,7 +40,7 @@ const  removeItems=(()=>{
 
    <div className='bg-orange-500 mt-16 cursor-pointer '>
         {
-            cart.some((p)=>p.id == post.id) ? 
+            cart.some((p)=>p.id === post.id) ? 
            
             (<div  onClick={removeItems}><button>remove items</button></div>):
               (<div  onClick={addItems}><button >add to cart</button></div>)
