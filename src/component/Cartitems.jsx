@@ -12,7 +12,8 @@ export const Cartitems = ({pankaj}) => {
           toast.success("item removed");
     }
   return (
-    <div className='grid grid-cols-1 mb-3 mt-20 h-60 p-3 border  border-red-500'>
+    <div className='grid grid-cols-1 mt-14
+     h-60 p-3 border  border-red-500'>
        <div className='font-bold'>
         {pankaj.title}
        </div>

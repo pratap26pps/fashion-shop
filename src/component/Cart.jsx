@@ -47,7 +47,7 @@ export const Cart = () => {
       </div>):
        (<div className='mt-40 font-bold '>
         <p>No cart left</p>
-        <NavLink to="/home">
+        <NavLink to="/">
           <button className='ont-bold bg-red-300 rounded-md p-2 mt-2'>show all cart</button>
         </NavLink>
        </div>)
