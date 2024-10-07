@@ -31,7 +31,7 @@ const  removeItems=(()=>{
         </div>
 
         <div className='h-14 w-20 '>
-            <img src={post.image} alt="photo" />
+            <img src={post.image} alt="car" />
         </div>
 
         <div>
